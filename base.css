@@ -5,6 +5,7 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
 }
 
 .wrapper {
@@ -30,9 +31,21 @@ body {
 .content {
     background-color: white;
     min-height: 300px;
-    padding: 20px;
+    padding: 10px;
 }
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+}
+
+.fotologo {
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
 }
